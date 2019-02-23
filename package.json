@@ -1,0 +1,27 @@
+{
+  "name": "@mapcreator/eslint-config",
+  "version": "1.0.0",
+  "description": "MapCreator eslint configs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint {helpers/**/*.js,rules/**/*.js,*.js}"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "devDependencies": {
+    "eslint": "^5.14.1"
+  },
+  "peerDependencies": {
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.0",
+    "eslint": "^5.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-vue": "^5.0.0"
+  },
+  "contributors": [
+    "Kevin Richter <k.richter1994@gmail.com>"
+  ],
+  "license": "MIT"
+}
