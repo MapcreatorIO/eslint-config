@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "MapCreator eslint configs",
   "main": "index.js",
+  "repository": "git@github.com:MapCreatorEU/eslint-config.git",
+  "author": "Kevin Richter <k.richter1994@gmail.com>",
   "scripts": {
     "lint": "eslint {helpers/**/*.js,rules/**/*.js,*.js}"
   },
