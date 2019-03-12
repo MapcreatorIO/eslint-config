@@ -26,7 +26,7 @@ module.exports = {
     'no-lonely-if': 'error',
     'no-mixed-operators': 'error',
     'no-multiple-empty-lines': [prod(), { max: 2, maxEOF: 1 }],
-    'no-negated-condition': 'warn', // prod()?
+    'no-negated-condition': prod(),
     'no-nested-ternary': 'error',
     'no-new-object': 'error',
     'no-tabs': 'error',
@@ -64,7 +64,7 @@ module.exports = {
     'prefer-object-spread': prod(),
     'quote-props': [prod(), 'consistent-as-needed'],
     'quotes': [prod(), 'single'],
-    'semi': ['error', 'always'],
+    'semi': [prod(), 'always'],
     'semi-spacing': prod(),
     'semi-style': [prod(), 'last'],
     'space-before-blocks': [prod(), 'always'],
@@ -88,6 +88,6 @@ module.exports = {
     'prefer-spread': 'error',
     'prefer-template': prod(),
     'rest-spread-spacing': ['error', 'never'],
-    'template-curly-spacing': ['error', 'never'],
+    'template-curly-spacing': [prod(), 'never'],
   },
 };

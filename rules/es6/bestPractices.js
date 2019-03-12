@@ -8,7 +8,7 @@ module.exports = {
     'dot-location': ['error', 'property'],
     'dot-notation': 'error',
     'eqeqeq': 'error',
-    // 'no-alert': prod(),
+    'no-alert': prod(),
     'no-caller': prod(),
     'no-else-return': 'error',
     'no-eq-null': 'error',
