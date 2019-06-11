@@ -71,6 +71,7 @@ module.exports = {
     'space-before-function-paren': [prod(), 'always'],
     'space-in-parens': [prod(), 'never'],
     'space-infix-ops': ['error', { int32Hint: false }],
+    'spaced-comment': ['error', 'always', { block: { balanced: true } }],
     'switch-colon-spacing': prod(),
     'template-tag-spacing': [prod(), 'always'],
     // ECMAScript 6
