@@ -12,7 +12,7 @@
     "eslint"
   ],
   "devDependencies": {
-    "eslint": "^5.14.1"
+    "eslint": "^5.16.0"
   },
   "peerDependencies": {
     "@vue/eslint-config-standard": "^4.0.0",
