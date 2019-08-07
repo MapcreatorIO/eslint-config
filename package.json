@@ -1,6 +1,6 @@
 {
   "name": "@mapcreator/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MapCreator eslint configs",
   "main": "index.js",
   "repository": "git@github.com:MapCreatorEU/eslint-config.git",

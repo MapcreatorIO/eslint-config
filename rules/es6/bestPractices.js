@@ -2,6 +2,7 @@ const prod = require('../../helpers/prod');
 
 module.exports = {
   rules: {
+    'array-callback-return': 'error',
     'block-scoped-var': 'error',
     'curly': ['error', 'multi-line', 'consistent'],
     // 'default-case': [],
