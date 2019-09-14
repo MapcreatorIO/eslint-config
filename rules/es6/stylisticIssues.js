@@ -39,10 +39,10 @@ module.exports = {
     'no-unneeded-ternary': prod(),
     'no-whitespace-before-property': prod(),
     'object-curly-spacing': [prod(), 'always'],
-    'one-var': 'error',
+    'one-var': ['error', 'never'],
     'operator-assignment': 'error',
     'operator-linebreak': [prod(), 'after', { overrides: { } }],
-    'padded-blocks': prod(),
+    'padded-blocks': [prod(), 'never'],
     'padding-line-between-statements': [
       prod(),
       // Always require blank lines after directive (like 'use-strict'), except between directives

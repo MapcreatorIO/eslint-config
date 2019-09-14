@@ -2,6 +2,7 @@ const prod = require('./helpers/prod');
 
 module.exports = {
   extends: [
+    '@vue/eslint-config-standard',
     'plugin:vue/strongly-recommended',
     './rules/vue/essential.js',
     './rules/vue/recommended.js',
@@ -24,6 +25,12 @@ module.exports = {
       baseIndent: 1,
       switchCase: 1,
     }],
+    'vue/html-indent': [prod(), 2, {
+      attribute: 1,
+      baseIndent: 1,
+      closeBracket: 0,
+      alignAttributesVertically: true,
+    }],
     // New
     'vue/no-boolean-default': 'error',
     'vue/eqeqeq': 'error',
@@ -42,6 +49,7 @@ module.exports = {
   },
   parserOptions: {
     parser: 'babel-eslint',
+    sourceType: 'module',
   },
   overrides: [
     {
