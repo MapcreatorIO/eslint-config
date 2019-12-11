@@ -4,7 +4,6 @@ module.exports = {
   extends: [
     '@vue/eslint-config-standard',
     'plugin:vue/strongly-recommended',
-    './rules/vue/essential.js',
     './rules/vue/recommended.js',
     './rules/vue/stronglyRecommended.js',
   ],
