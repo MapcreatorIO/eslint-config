@@ -85,4 +85,12 @@ module.exports = {
     'switch-colon-spacing': prod(),
     'template-tag-spacing': [prod(), 'always'],
   },
+  overrides: [
+    {
+      files: ['*.vue'],
+      rules: {
+        indent: 'off',
+      },
+    },
+  ],
 };
