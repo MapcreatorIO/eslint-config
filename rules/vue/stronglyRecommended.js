@@ -4,6 +4,12 @@ module.exports = {
   rules: {
     'vue/html-closing-bracket-newline': [prod(), { multiline: 'never' }],
     'vue/html-closing-bracket-spacing': [prod(), { selfClosingTag: 'never' }],
+    'vue/html-indent': [prod(), 2, {
+      attribute: 1,
+      baseIndent: 1,
+      closeBracket: 0,
+      alignAttributesVertically: true,
+    }],
     'vue/html-quotes': 'error',
     'vue/html-self-closing': ['error', {
       html: {

@@ -5,8 +5,7 @@ module.exports = {
     'no-shadow': prod(),
     'no-undef': 'error',
     'no-undef-init': 'error',
-    'no-undefined': 'error',
     'no-unused-vars': prod(),
-    'no-use-before-define': 'error',
+    'no-use-before-define': ['error', { functions: false }],
   },
 };

@@ -1,7 +1,8 @@
 module.exports = {
   extends: [
-    './vue.js',
+    './node.js',
     './promise.js',
     './es6.js',
+    './vue.js',
   ],
 };

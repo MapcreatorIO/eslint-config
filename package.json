@@ -1,9 +1,9 @@
 {
   "name": "@mapcreator/eslint-config",
-  "version": "1.0.5",
-  "description": "MapCreator eslint configs",
+  "version": "1.1.0",
+  "description": "Mapcreator eslint configs",
   "main": "index.js",
-  "repository": "git@github.com:MapCreatorEU/eslint-config.git",
+  "repository": "git@github.com:MapcreatorIO/eslint-config.git",
   "author": "Kevin Richter <k.richter1994@gmail.com>",
   "scripts": {
     "lint": "eslint {helpers/**/*.js,rules/**/*.js,*.js}"
@@ -12,15 +12,15 @@
     "eslint"
   ],
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^6.8.0"
   },
   "peerDependencies": {
-    "@vue/eslint-config-standard": "^4.0.0",
-    "babel-eslint": "^10.0.0",
-    "eslint": "^5.16.0",
+    "@vue/eslint-config-standard": "^5.1.0",
+    "babel-eslint": "^10.0.3",
     "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-vue": "^5.2.3"
+    "eslint-plugin-vue": "^6.1.2"
   },
   "contributors": [
     "Kevin Richter <k.richter1994@gmail.com>"
