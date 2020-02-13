@@ -28,7 +28,6 @@ module.exports = {
     'max-lines-per-function': 'warn',
     'max-nested-callbacks': [prod(), 5],
     'max-params': [prod(), 5],
-    'multiline-ternary': [prod(), 'always-multiline'],
     'new-cap': 'error',
     'new-parens': 'error',
     'no-array-constructor': 'error',

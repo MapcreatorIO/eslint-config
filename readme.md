@@ -1,32 +1,20 @@
-# MapCreator eslint config
+# Mapcreator eslint config
 
-This repo contains the eslint configs used at MapCreator.
+This repo contains the eslint configs used at Mapcreator.
 
 ## Available configs
 
  - es6
  - vue
  - promise
+ - node
 
 All configs are combined for vue projects in the root.
 
 ## Usage
 
-For projects using vue
-
 ```js
 module.exports = {
   extends: '@mapcreator',
-};
-```
-
-For projects using vue-cli 3
-
-```js
-module.exports = {
-  extends: [
-    'plugin:vue/base',
-    '@mapcreator',
-  ],
 };
 ```
