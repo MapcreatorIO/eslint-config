@@ -48,7 +48,7 @@ module.exports = {
     'one-var': ['error', 'never'],
     'one-var-declaration-per-line': 'error',
     'operator-assignment': 'error',
-    'operator-linebreak': [prod(), 'after', { overrides: { } }],
+    'operator-linebreak': prod(),
     'padded-blocks': [prod(), 'never'],
     'padding-line-between-statements': [
       prod(),
